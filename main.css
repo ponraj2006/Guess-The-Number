@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#001e4d;
+    font-family: "Delius Swash Caps", cursive;
+    
+}
+.container{
+    min-height: 100vh;
+    border: 1px solid black;
+    background-color: #001e4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    display: block;
+    width: 320px;
+    background-color: #fff; 
+    min-height: 350px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.inner-container h1{
+    font-family: "Playwrite GB S", cursive; 
+    font-size: 1.5rem;
+    margin: 10px;
+    text-transform:capitalize;
+}
+.inner-container input{
+    margin: 30px 5px 20px 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 15px;
+    font-size: 0.9rem;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.check{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(9, 174, 9, 0.884);
+    border-radius: 10px;
+    font-family:'Lobster', 'Lobster', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#playagain{
+    background-color: rgb(11, 61, 186);
+    color: #fffefe;
+    border-radius: 10px;
+    font-family:'Lobster', 'Lobster', cursive;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1rem;   
+    margin: 10px;
+    display:none ;
+    cursor: pointer;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+#guesstxt{
+    display: none;
+}
